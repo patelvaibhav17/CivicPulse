@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { useApp } from "../context/AppContext";
 import { AlertTriangle, Bot, MapPin, Calendar, RefreshCw, TrendingUp, Loader2, Zap } from "lucide-react";
 import type { Issue } from "../types";
@@ -137,7 +137,7 @@ Generate exactly 3 hyperlocal infrastructure predictions. Return ONLY valid JSON
 Use REAL ward names from the statistics. Be specific to Anand/Gujarat geography. No preamble or markdown, only JSON array.`;
 
       const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${settings.geminiApiKey}`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${settings.geminiApiKey}`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
