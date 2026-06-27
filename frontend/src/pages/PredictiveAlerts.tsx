@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useCallback } from "react";
 import { useApp } from "../context/AppContext";
 import { AlertTriangle, Bot, MapPin, Calendar, RefreshCw, TrendingUp, Loader2, Zap } from "lucide-react";
 import type { Issue } from "../types";
@@ -162,7 +162,12 @@ Use REAL ward names from the statistics. Be specific to Anand/Gujarat geography.
       }
       throw new Error("Could not parse AI response");
     } catch (e: any) {
-      setError(`AI generation failed: ${e.message}. Showing example predictions.`);
+      const msg = e.message || '';
+      if (msg.includes('429')) {
+        setError('Rate limit reached (429). Wait 1 minute then click Refresh to generate AI predictions.');
+      } else {
+        setError(`AI generation failed: ${msg}. Showing example predictions.`);
+      }
       setPredictions(FALLBACK_PREDICTIONS);
       setAiGenerated(false);
     } finally {
@@ -170,11 +175,8 @@ Use REAL ward names from the statistics. Be specific to Anand/Gujarat geography.
     }
   }, [issues, settings.geminiApiKey]);
 
-  useEffect(() => {
-    if (settings.geminiApiKey && issues.length > 0) {
-      generateAIPredictions();
-    }
-  }, []);
+  // Do NOT auto-generate on mount — prevents 429 rate-limit errors on repeated page loads.
+  // Users click Refresh to trigger AI generation intentionally.
 
   const criticalCount = predictions.filter(p => p.riskLevel === "CRITICAL").length;
   const highCount = predictions.filter(p => p.riskLevel === "HIGH").length;
