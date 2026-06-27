@@ -30,7 +30,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSettings }) => {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full glass-panel border-b border-white/10 px-6 py-4 flex items-center justify-between">
+    <header className="sticky top-0 z-[1000] w-full glass-panel border-b border-white/10 px-6 py-4 flex items-center justify-between">
       {/* Brand Logo */}
       <div className="flex items-center gap-3">
         <div className="bg-gradient-to-tr from-brand-600 to-brand-400 p-2.5 rounded-xl shadow-glow-primary flex items-center justify-center animate-pulse-slow">
@@ -45,7 +45,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSettings }) => {
       </div>
 
       {/* Center Role-Switcher Dropdown for evaluation convenience */}
-      <div className="relative">
+      <div className="relative isolate">
         <button 
           onClick={() => setShowRoleDropdown(!showRoleDropdown)}
           className="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-white/5 text-sm font-semibold transition"
@@ -58,7 +58,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSettings }) => {
         </button>
 
         {showRoleDropdown && (
-          <div className="absolute top-full mt-2 left-0 w-52 rounded-xl bg-slate-900 border border-white/10 shadow-2xl p-2 flex flex-col gap-1 z-50">
+          <div className="absolute top-full mt-2 left-0 w-52 rounded-xl bg-slate-900 border border-white/10 shadow-2xl p-2 flex flex-col gap-1 z-[9999]">
             <p className="text-[10px] text-slate-500 font-bold px-3 py-1 uppercase">Switch Sandbox Role</p>
             {(['Citizen', 'Validator', 'Officer', 'Admin'] as UserRole[]).map((r) => (
               <button
