@@ -220,7 +220,7 @@ const App: React.FC = () => {
 
       {/* Re-designed Settings Modal with spacious dimensions, rendered at root level */}
       {showSettingsModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm">
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm">
           <div className="w-full max-w-2xl bg-slate-900 border border-white/10 rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row h-[520px] animate-in fade-in zoom-in-95 duration-200">
             
             {/* Tab Selector Sidebar */}

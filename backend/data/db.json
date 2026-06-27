@@ -5,7 +5,7 @@
       "name": "Aarav Patel",
       "role": "Citizen",
       "email": "aarav.patel@civicpulse.org",
-      "password": "$2a$10$XGP8ILTJuA8PIPpx5y.RQeLahjp3LgFMpMZT4NK.dq97.igQIl1PW",
+      "password": "$2a$10$WHpuIL5d7BVlDac7YGQtkuSBu5FAzaEwC9OMCUr0FVclEaiTekuvu",
       "phone": "+91 98765 43210",
       "trustScore": 88,
       "xp": 120,
@@ -19,14 +19,14 @@
           "name": "First Report",
           "icon": "🌱",
           "description": "Submitted your first civic report",
-          "unlockedAt": "2026-05-28T18:18:10.137Z"
+          "unlockedAt": "2026-05-28T18:34:39.056Z"
         },
         {
           "id": "b2",
           "name": "Pothole Spotter",
           "icon": "🕳️",
           "description": "Reported 2+ potholes successfully",
-          "unlockedAt": "2026-06-17T18:18:10.139Z"
+          "unlockedAt": "2026-06-17T18:34:39.057Z"
         }
       ]
     },
@@ -35,7 +35,7 @@
       "name": "Priya Sharma",
       "role": "Validator",
       "email": "priya.sharma@civicpulse.org",
-      "password": "$2a$10$XGP8ILTJuA8PIPpx5y.RQeLahjp3LgFMpMZT4NK.dq97.igQIl1PW",
+      "password": "$2a$10$WHpuIL5d7BVlDac7YGQtkuSBu5FAzaEwC9OMCUr0FVclEaiTekuvu",
       "phone": "+91 98123 45678",
       "trustScore": 97,
       "xp": 450,
@@ -49,21 +49,21 @@
           "name": "First Report",
           "icon": "🌱",
           "description": "Submitted your first civic report",
-          "unlockedAt": "2026-04-28T18:18:10.139Z"
+          "unlockedAt": "2026-04-28T18:34:39.057Z"
         },
         {
           "id": "b3",
           "name": "Community Guardian",
           "icon": "🛡️",
           "description": "Verified over 10 reported issues",
-          "unlockedAt": "2026-06-12T18:18:10.139Z"
+          "unlockedAt": "2026-06-12T18:34:39.057Z"
         },
         {
           "id": "b4",
           "name": "Green Warrior",
           "icon": "🌳",
           "description": "Reported 3+ waste management issues",
-          "unlockedAt": "2026-06-22T18:18:10.139Z"
+          "unlockedAt": "2026-06-22T18:34:39.057Z"
         }
       ]
     },
@@ -72,7 +72,7 @@
       "name": "Officer Rakesh Sharma",
       "role": "Officer",
       "email": "r.sharma@anandgov.in",
-      "password": "$2a$10$XGP8ILTJuA8PIPpx5y.RQeLahjp3LgFMpMZT4NK.dq97.igQIl1PW",
+      "password": "$2a$10$WHpuIL5d7BVlDac7YGQtkuSBu5FAzaEwC9OMCUr0FVclEaiTekuvu",
       "phone": "+91 90000 11111",
       "trustScore": 100,
       "xp": 0,
@@ -87,7 +87,7 @@
       "name": "Officer Anita Patil",
       "role": "Officer",
       "email": "a.patil@anandgov.in",
-      "password": "$2a$10$XGP8ILTJuA8PIPpx5y.RQeLahjp3LgFMpMZT4NK.dq97.igQIl1PW",
+      "password": "$2a$10$WHpuIL5d7BVlDac7YGQtkuSBu5FAzaEwC9OMCUr0FVclEaiTekuvu",
       "phone": "+91 90000 22222",
       "trustScore": 100,
       "xp": 0,
@@ -102,7 +102,7 @@
       "name": "Central Admin",
       "role": "Admin",
       "email": "admin@civicpulse.org",
-      "password": "$2a$10$XGP8ILTJuA8PIPpx5y.RQeLahjp3LgFMpMZT4NK.dq97.igQIl1PW",
+      "password": "$2a$10$WHpuIL5d7BVlDac7YGQtkuSBu5FAzaEwC9OMCUr0FVclEaiTekuvu",
       "phone": "+91 91111 22222",
       "trustScore": 100,
       "xp": 0,
@@ -171,8 +171,8 @@
       "upvoters": [
         "user_priya"
       ],
-      "createdAt": "2026-06-27T14:18:10.139Z",
-      "updatedAt": "2026-06-27T14:18:10.139Z",
+      "createdAt": "2026-06-27T14:34:39.057Z",
+      "updatedAt": "2026-06-27T14:34:39.057Z",
       "resolvedAt": null,
       "tags": [
         "Pothole",
@@ -185,7 +185,7 @@
           "author": "Priya Sharma",
           "authorRole": "Validator",
           "text": "I passed by this yesterday. It is indeed very deep and hard to see at night because the streetlights in this segment are dim.",
-          "timestamp": "2026-06-27T15:18:10.139Z"
+          "timestamp": "2026-06-27T15:34:39.057Z"
         }
       ],
       "progressUpdates": []
@@ -206,7 +206,7 @@
         "ward": "Ward 2 (Amul Dairy Road)"
       },
       "mediaUrls": [
-        "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=600&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1607400201515-c2c41c07d307?q=80&w=600&auto=format&fit=crop"
       ],
       "aiAnalysis": {
         "isValidIssue": true,
@@ -249,8 +249,8 @@
       "upvoters": [
         "user_aarav"
       ],
-      "createdAt": "2026-06-27T00:18:10.139Z",
-      "updatedAt": "2026-06-27T08:18:10.139Z",
+      "createdAt": "2026-06-27T00:34:39.057Z",
+      "updatedAt": "2026-06-27T08:34:39.057Z",
       "resolvedAt": null,
       "tags": [
         "Water Waste",
@@ -263,7 +263,7 @@
           "author": "System",
           "authorRole": "Admin",
           "text": "Report promoted to VERIFIED status after receiving 3 validator confirmations.",
-          "timestamp": "2026-06-27T08:18:10.139Z"
+          "timestamp": "2026-06-27T08:34:39.057Z"
         }
       ],
       "progressUpdates": []
@@ -328,8 +328,8 @@
       "upvoters": [
         "user_priya"
       ],
-      "createdAt": "2026-06-25T18:18:10.139Z",
-      "updatedAt": "2026-06-26T06:18:10.139Z",
+      "createdAt": "2026-06-25T18:34:39.057Z",
+      "updatedAt": "2026-06-26T06:34:39.057Z",
       "resolvedAt": null,
       "tags": [
         "Garbage Overflow",
@@ -342,14 +342,14 @@
           "author": "Officer Rakesh Sharma",
           "authorRole": "Officer",
           "text": "Assigned to the Anand Sanitation team. Cleansing crew has been scheduled for morning route.",
-          "timestamp": "2026-06-26T06:18:10.139Z"
+          "timestamp": "2026-06-26T06:34:39.057Z"
         }
       ],
       "progressUpdates": [
         {
           "status": "ASSIGNED",
           "notes": "Sanitation cleaning route assigned to Borsad Chowkdi truck team.",
-          "timestamp": "2026-06-26T06:18:10.139Z",
+          "timestamp": "2026-06-26T06:34:39.057Z",
           "updatedBy": "Officer Rakesh Sharma"
         }
       ]
@@ -410,9 +410,9 @@
       ],
       "upvotes": 6,
       "upvoters": [],
-      "createdAt": "2026-06-22T18:18:10.139Z",
-      "updatedAt": "2026-06-25T18:18:10.139Z",
-      "resolvedAt": "2026-06-25T18:18:10.139Z",
+      "createdAt": "2026-06-22T18:34:39.057Z",
+      "updatedAt": "2026-06-25T18:34:39.057Z",
+      "resolvedAt": "2026-06-25T18:34:39.057Z",
       "tags": [
         "Dark Pole",
         "Park Safety",
@@ -424,14 +424,14 @@
           "author": "Officer Anita Patil",
           "authorRole": "Officer",
           "text": "The electrical crew replaced the LED assembly and checked the fuse box on Pole SL-41. It is now fully operational.",
-          "timestamp": "2026-06-25T18:18:10.139Z"
+          "timestamp": "2026-06-25T18:34:39.057Z"
         }
       ],
       "progressUpdates": [
         {
           "status": "RESOLVED",
           "notes": "LED replacement complete. Light verified active.",
-          "timestamp": "2026-06-25T18:18:10.139Z",
+          "timestamp": "2026-06-25T18:34:39.057Z",
           "updatedBy": "Officer Anita Patil"
         }
       ]
@@ -452,7 +452,7 @@
         "ward": "Ward 6 (Ganesh Crossing)"
       },
       "mediaUrls": [
-        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=600&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1547036967-23d11aacaee0?q=80&w=600&auto=format&fit=crop"
       ],
       "aiAnalysis": {
         "isValidIssue": true,
@@ -491,8 +491,8 @@
       "upvoters": [
         "user_aarav"
       ],
-      "createdAt": "2026-06-27T16:18:10.139Z",
-      "updatedAt": "2026-06-27T16:18:10.139Z",
+      "createdAt": "2026-06-27T16:34:39.057Z",
+      "updatedAt": "2026-06-27T16:34:39.057Z",
       "resolvedAt": null,
       "tags": [
         "Flooding",
@@ -560,8 +560,8 @@
       "upvoters": [
         "user_priya"
       ],
-      "createdAt": "2026-06-27T08:18:10.139Z",
-      "updatedAt": "2026-06-27T13:18:10.139Z",
+      "createdAt": "2026-06-27T08:34:39.057Z",
+      "updatedAt": "2026-06-27T13:34:39.057Z",
       "resolvedAt": null,
       "tags": [
         "Pothole",
@@ -574,7 +574,7 @@
           "author": "Priya Sharma",
           "authorRole": "Validator",
           "text": "This section is extremely dangerous. I saw a scooter slip here this morning.",
-          "timestamp": "2026-06-27T13:18:10.139Z"
+          "timestamp": "2026-06-27T13:34:39.057Z"
         }
       ],
       "progressUpdates": []
@@ -631,8 +631,8 @@
       "verifiers": [],
       "upvotes": 5,
       "upvoters": [],
-      "createdAt": "2026-06-27T12:18:10.139Z",
-      "updatedAt": "2026-06-27T12:18:10.139Z",
+      "createdAt": "2026-06-27T12:34:39.057Z",
+      "updatedAt": "2026-06-27T12:34:39.057Z",
       "resolvedAt": null,
       "tags": [
         "Garbage",
@@ -694,8 +694,8 @@
       "verifiers": [],
       "upvotes": 4,
       "upvoters": [],
-      "createdAt": "2026-06-27T06:18:10.139Z",
-      "updatedAt": "2026-06-27T06:18:10.139Z",
+      "createdAt": "2026-06-27T06:34:39.057Z",
+      "updatedAt": "2026-06-27T06:34:39.057Z",
       "resolvedAt": null,
       "tags": [
         "Streetlight",
@@ -721,7 +721,7 @@
         "ward": "Ward 4 (Lambhvel Area)"
       },
       "mediaUrls": [
-        "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=600&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1567345711432-bfde26f6f0a4?q=80&w=600&auto=format&fit=crop"
       ],
       "aiAnalysis": {
         "isValidIssue": true,
@@ -765,8 +765,8 @@
       "upvoters": [
         "user_priya"
       ],
-      "createdAt": "2026-06-26T06:18:10.139Z",
-      "updatedAt": "2026-06-26T18:18:10.139Z",
+      "createdAt": "2026-06-26T06:34:39.057Z",
+      "updatedAt": "2026-06-26T18:34:39.057Z",
       "resolvedAt": null,
       "tags": [
         "Clogged Canal",
@@ -779,14 +779,14 @@
           "author": "Officer Anita Patil",
           "authorRole": "Officer",
           "text": "Sanitation cleaning crew has been dispatched to clear the weeds and plastic blockages in the Lambhvel open canal channel.",
-          "timestamp": "2026-06-26T18:18:10.139Z"
+          "timestamp": "2026-06-26T18:34:39.057Z"
         }
       ],
       "progressUpdates": [
         {
           "status": "ASSIGNED",
           "notes": "Canal cleaning team dispatched to clear blockages.",
-          "timestamp": "2026-06-26T18:18:10.139Z",
+          "timestamp": "2026-06-26T18:34:39.057Z",
           "updatedBy": "Officer Anita Patil"
         }
       ]
@@ -798,7 +798,7 @@
       "userId": "user_aarav",
       "title": "Welcome to CivicPulse! ⚡",
       "message": "Report infrastructure issues, verify nearby reports, and earn XP badges to help improve your community.",
-      "createdAt": "2026-06-27T18:18:10.139Z",
+      "createdAt": "2026-06-27T18:34:39.057Z",
       "read": false,
       "type": "gamification"
     }

@@ -404,7 +404,7 @@ class DatabaseManager {
           address: 'Amul Dairy Road, near Anand Railway Station, Anand, Gujarat 388001',
           ward: 'Ward 2 (Amul Dairy Road)'
         },
-        mediaUrls: ['https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=600&auto=format&fit=crop'],
+        mediaUrls: ['https://images.unsplash.com/photo-1607400201515-c2c41c07d307?q=80&w=600&auto=format&fit=crop'],
         aiAnalysis: {
           isValidIssue: true,
           isFakeOrManipulated: false,
@@ -592,7 +592,7 @@ class DatabaseManager {
           address: 'Ganesh Crossing Underpass, Anand, Gujarat 388001',
           ward: 'Ward 6 (Ganesh Crossing)'
         },
-        mediaUrls: ['https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=600&auto=format&fit=crop'],
+        mediaUrls: ['https://images.unsplash.com/photo-1547036967-23d11aacaee0?q=80&w=600&auto=format&fit=crop'],
         aiAnalysis: {
           isValidIssue: true,
           isFakeOrManipulated: false,
@@ -800,7 +800,7 @@ class DatabaseManager {
           address: 'Lambhvel Drainage Canal Avenue, Anand, Gujarat 388310',
           ward: 'Ward 4 (Lambhvel Area)'
         },
-        mediaUrls: ['https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=600&auto=format&fit=crop'],
+        mediaUrls: ['https://images.unsplash.com/photo-1567345711432-bfde26f6f0a4?q=80&w=600&auto=format&fit=crop'],
         aiAnalysis: {
           isValidIssue: true,
           isFakeOrManipulated: false,
