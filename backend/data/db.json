@@ -5,13 +5,13 @@
       "name": "Aarav Patel",
       "role": "Citizen",
       "email": "aarav.patel@civicpulse.org",
-      "password": "$2a$10$bBVHhW.AtZ6lCO2xnnsle.Xw6n2yaO09FQWqqf9ay04H5MPYtQ2Qi",
+      "password": "$2a$10$XGP8ILTJuA8PIPpx5y.RQeLahjp3LgFMpMZT4NK.dq97.igQIl1PW",
       "phone": "+91 98765 43210",
       "trustScore": 88,
-      "xp": 130,
+      "xp": 120,
       "streakCount": 3,
       "ward": "Ward 1 (Vallabh Vidyanagar)",
-      "reportedCount": 3,
+      "reportedCount": 2,
       "verifiedCount": 5,
       "badges": [
         {
@@ -19,28 +19,14 @@
           "name": "First Report",
           "icon": "🌱",
           "description": "Submitted your first civic report",
-          "unlockedAt": "2026-05-27T20:10:48.393Z"
+          "unlockedAt": "2026-05-28T18:18:10.137Z"
         },
         {
           "id": "b2",
           "name": "Pothole Spotter",
           "icon": "🕳️",
           "description": "Reported 2+ potholes successfully",
-          "unlockedAt": "2026-06-16T20:10:48.393Z"
-        },
-        {
-          "id": "first_report",
-          "name": "First Report",
-          "icon": "ðŸŒ±",
-          "description": "Submitted your first civic report",
-          "unlockedAt": "2026-06-27T16:14:05.175Z"
-        },
-        {
-          "id": "water_guardian",
-          "name": "Water Guardian",
-          "icon": "ðŸ’§",
-          "description": "Reported a water infrastructure issue",
-          "unlockedAt": "2026-06-27T16:14:05.175Z"
+          "unlockedAt": "2026-06-17T18:18:10.139Z"
         }
       ]
     },
@@ -49,8 +35,8 @@
       "name": "Priya Sharma",
       "role": "Validator",
       "email": "priya.sharma@civicpulse.org",
-      "password": "$2a$10$z0GWiXerY/Cxh4wZLusVQe0exolHZfdc8Nzhj3LpovkXP8B6AK3LO",
-      "phone": "9876543210",
+      "password": "$2a$10$XGP8ILTJuA8PIPpx5y.RQeLahjp3LgFMpMZT4NK.dq97.igQIl1PW",
+      "phone": "+91 98123 45678",
       "trustScore": 97,
       "xp": 450,
       "streakCount": 8,
@@ -63,21 +49,21 @@
           "name": "First Report",
           "icon": "🌱",
           "description": "Submitted your first civic report",
-          "unlockedAt": "2026-04-27T20:10:48.393Z"
+          "unlockedAt": "2026-04-28T18:18:10.139Z"
         },
         {
           "id": "b3",
           "name": "Community Guardian",
           "icon": "🛡️",
           "description": "Verified over 10 reported issues",
-          "unlockedAt": "2026-06-11T20:10:48.393Z"
+          "unlockedAt": "2026-06-12T18:18:10.139Z"
         },
         {
           "id": "b4",
           "name": "Green Warrior",
           "icon": "🌳",
           "description": "Reported 3+ waste management issues",
-          "unlockedAt": "2026-06-21T20:10:48.393Z"
+          "unlockedAt": "2026-06-22T18:18:10.139Z"
         }
       ]
     },
@@ -86,7 +72,7 @@
       "name": "Officer Rakesh Sharma",
       "role": "Officer",
       "email": "r.sharma@anandgov.in",
-      "password": "$2a$10$bBVHhW.AtZ6lCO2xnnsle.Xw6n2yaO09FQWqqf9ay04H5MPYtQ2Qi",
+      "password": "$2a$10$XGP8ILTJuA8PIPpx5y.RQeLahjp3LgFMpMZT4NK.dq97.igQIl1PW",
       "phone": "+91 90000 11111",
       "trustScore": 100,
       "xp": 0,
@@ -101,7 +87,7 @@
       "name": "Officer Anita Patil",
       "role": "Officer",
       "email": "a.patil@anandgov.in",
-      "password": "$2a$10$bBVHhW.AtZ6lCO2xnnsle.Xw6n2yaO09FQWqqf9ay04H5MPYtQ2Qi",
+      "password": "$2a$10$XGP8ILTJuA8PIPpx5y.RQeLahjp3LgFMpMZT4NK.dq97.igQIl1PW",
       "phone": "+91 90000 22222",
       "trustScore": 100,
       "xp": 0,
@@ -116,7 +102,7 @@
       "name": "Central Admin",
       "role": "Admin",
       "email": "admin@civicpulse.org",
-      "password": "$2a$10$bBVHhW.AtZ6lCO2xnnsle.Xw6n2yaO09FQWqqf9ay04H5MPYtQ2Qi",
+      "password": "$2a$10$XGP8ILTJuA8PIPpx5y.RQeLahjp3LgFMpMZT4NK.dq97.igQIl1PW",
       "phone": "+91 91111 22222",
       "trustScore": 100,
       "xp": 0,
@@ -125,96 +111,9 @@
       "reportedCount": 0,
       "verifiedCount": 0,
       "badges": []
-    },
-    {
-      "uid": "user_cust_1782505308991",
-      "name": "Vaibhav",
-      "email": "patelvaibhav172005@gmail.com",
-      "password": "$2a$10$yMeezvmW25I1riBpnZGDn.8Tn8f9Ss8EemGhA0v6fSKXUWxLmrWWe",
-      "phone": "6356132745",
-      "role": "Citizen",
-      "ward": "Ward 1 (Vallabh Vidyanagar)",
-      "trustScore": 80,
-      "xp": 0,
-      "streakCount": 1,
-      "badges": [],
-      "reportedCount": 0,
-      "verifiedCount": 0
     }
   ],
   "issues": [
-    {
-      "id": "iss_1782576845164",
-      "title": "Joint Seepage detected by AI",
-      "description": "Significant water leak causing road erosion and flooding.",
-      "category": "WATER_LEAK",
-      "severity": "HIGH",
-      "status": "SUBMITTED",
-      "location": {
-        "coordinates": [
-          22.553896,
-          72.92968
-        ],
-        "address": "Anand, Vallabh Vidyanagar, Bakrol, Anand Rural Taluka, Anand, Gujarat, 388120, India",
-        "ward": "Ward 1 (Vallabh Vidyanagar)"
-      },
-      "mediaUrls": [
-        "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?q=80&w=600&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=600&auto=format&fit=crop"
-      ],
-      "aiAnalysis": {
-        "isValidIssue": true,
-        "isFakeOrManipulated": false,
-        "category": "WATER_LEAK",
-        "subCategory": "Joint Seepage",
-        "severity": "HIGH",
-        "severityReason": "AI detected joint seepage causing high public infrastructure disruption.",
-        "confidenceScore": 0.9,
-        "estimatedDimensions": {
-          "description": "Continuous flow rate ~40 Liters/min",
-          "affectedAreaSqMeters": 0.5
-        },
-        "immediateRisk": true,
-        "riskDescription": "Wastage of drinking water and flooding on the pedestrian pathway.",
-        "suggestedDepartment": "Water & Sanitation",
-        "officerSummary": "Automated AI Scan: Identified Joint Seepage at the locality. Structural metrics align with HIGH priority status. Auto-assigned to Water & Sanitation.",
-        "citizenSummary": "Report for Joint Seepage has been processed successfully by Gemini. Priority: HIGH.",
-        "tags": [
-          "WATER_LEAK",
-          "Joint",
-          "Water"
-        ],
-        "locationContext": "Ambient street surroundings of the reported ward segment",
-        "estimatedResolutionDays": 4
-      },
-      "reportedBy": "user_aarav",
-      "reportedByName": "Aarav Patel",
-      "assignedTo": null,
-      "assignedToName": null,
-      "department": "Water & Sanitation",
-      "verificationCount": 0,
-      "verifiers": [],
-      "upvotes": 0,
-      "upvoters": [],
-      "createdAt": "2026-06-27T16:14:05.165Z",
-      "updatedAt": "2026-06-27T16:14:05.165Z",
-      "resolvedAt": null,
-      "tags": [
-        "WATER_LEAK",
-        "Joint",
-        "Water"
-      ],
-      "comments": [
-        {
-          "id": "c_init_1782576845165",
-          "author": "System (Gemini AI)",
-          "authorRole": "Admin",
-          "text": "Issue auto-categorized as [WATER_LEAK] Â· Severity: [HIGH] Â· Dept: [Water & Sanitation] Â· Automated AI Scan: Identified Joint Seepage at the locality. Structural metrics align with HIGH priority status. Auto-assigned to Water & Sanitation.",
-          "timestamp": "2026-06-27T16:14:05.165Z"
-        }
-      ],
-      "progressUpdates": []
-    },
     {
       "id": "iss_1",
       "title": "Severe road crater near Vidyanagar Gate",
@@ -272,8 +171,8 @@
       "upvoters": [
         "user_priya"
       ],
-      "createdAt": "2026-06-26T16:10:48.394Z",
-      "updatedAt": "2026-06-26T16:10:48.394Z",
+      "createdAt": "2026-06-27T14:18:10.139Z",
+      "updatedAt": "2026-06-27T14:18:10.139Z",
       "resolvedAt": null,
       "tags": [
         "Pothole",
@@ -286,7 +185,7 @@
           "author": "Priya Sharma",
           "authorRole": "Validator",
           "text": "I passed by this yesterday. It is indeed very deep and hard to see at night because the streetlights in this segment are dim.",
-          "timestamp": "2026-06-26T17:10:48.394Z"
+          "timestamp": "2026-06-27T15:18:10.139Z"
         }
       ],
       "progressUpdates": []
@@ -350,8 +249,8 @@
       "upvoters": [
         "user_aarav"
       ],
-      "createdAt": "2026-06-26T02:10:48.394Z",
-      "updatedAt": "2026-06-26T10:10:48.394Z",
+      "createdAt": "2026-06-27T00:18:10.139Z",
+      "updatedAt": "2026-06-27T08:18:10.139Z",
       "resolvedAt": null,
       "tags": [
         "Water Waste",
@@ -364,7 +263,7 @@
           "author": "System",
           "authorRole": "Admin",
           "text": "Report promoted to VERIFIED status after receiving 3 validator confirmations.",
-          "timestamp": "2026-06-26T10:10:48.394Z"
+          "timestamp": "2026-06-27T08:18:10.139Z"
         }
       ],
       "progressUpdates": []
@@ -429,8 +328,8 @@
       "upvoters": [
         "user_priya"
       ],
-      "createdAt": "2026-06-24T20:10:48.394Z",
-      "updatedAt": "2026-06-25T08:10:48.394Z",
+      "createdAt": "2026-06-25T18:18:10.139Z",
+      "updatedAt": "2026-06-26T06:18:10.139Z",
       "resolvedAt": null,
       "tags": [
         "Garbage Overflow",
@@ -443,14 +342,14 @@
           "author": "Officer Rakesh Sharma",
           "authorRole": "Officer",
           "text": "Assigned to the Anand Sanitation team. Cleansing crew has been scheduled for morning route.",
-          "timestamp": "2026-06-25T08:10:48.394Z"
+          "timestamp": "2026-06-26T06:18:10.139Z"
         }
       ],
       "progressUpdates": [
         {
           "status": "ASSIGNED",
           "notes": "Sanitation cleaning route assigned to Borsad Chowkdi truck team.",
-          "timestamp": "2026-06-25T08:10:48.394Z",
+          "timestamp": "2026-06-26T06:18:10.139Z",
           "updatedBy": "Officer Rakesh Sharma"
         }
       ]
@@ -511,9 +410,9 @@
       ],
       "upvotes": 6,
       "upvoters": [],
-      "createdAt": "2026-06-21T20:10:48.394Z",
-      "updatedAt": "2026-06-24T20:10:48.394Z",
-      "resolvedAt": "2026-06-24T20:10:48.394Z",
+      "createdAt": "2026-06-22T18:18:10.139Z",
+      "updatedAt": "2026-06-25T18:18:10.139Z",
+      "resolvedAt": "2026-06-25T18:18:10.139Z",
       "tags": [
         "Dark Pole",
         "Park Safety",
@@ -525,14 +424,369 @@
           "author": "Officer Anita Patil",
           "authorRole": "Officer",
           "text": "The electrical crew replaced the LED assembly and checked the fuse box on Pole SL-41. It is now fully operational.",
-          "timestamp": "2026-06-24T20:10:48.394Z"
+          "timestamp": "2026-06-25T18:18:10.139Z"
         }
       ],
       "progressUpdates": [
         {
           "status": "RESOLVED",
           "notes": "LED replacement complete. Light verified active.",
-          "timestamp": "2026-06-24T20:10:48.394Z",
+          "timestamp": "2026-06-25T18:18:10.139Z",
+          "updatedBy": "Officer Anita Patil"
+        }
+      ]
+    },
+    {
+      "id": "iss_5",
+      "title": "Flooded underpass near Ganesh Crossing",
+      "description": "Heavy water logging has accumulated in the Ganesh Crossing railway underpass due to a clogged storm drain. Cars are getting stuck and water depth has reached 2 feet.",
+      "category": "WATER_LEAK",
+      "severity": "CRITICAL",
+      "status": "SUBMITTED",
+      "location": {
+        "coordinates": [
+          22.5485,
+          72.9392
+        ],
+        "address": "Ganesh Crossing Underpass, Anand, Gujarat 388001",
+        "ward": "Ward 6 (Ganesh Crossing)"
+      },
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=600&auto=format&fit=crop"
+      ],
+      "aiAnalysis": {
+        "isValidIssue": true,
+        "isFakeOrManipulated": false,
+        "category": "WATER_LEAK",
+        "subCategory": "Storm Drain Blockage",
+        "severity": "CRITICAL",
+        "severityReason": "Underpass flooding halting regional traffic flow and creating immediate electrical/drowning hazards.",
+        "confidenceScore": 0.95,
+        "estimatedDimensions": {
+          "description": "Water depth ~60cm, affected area ~40m",
+          "affectedAreaSqMeters": 120
+        },
+        "immediateRisk": true,
+        "riskDescription": "Severe risk of vehicle engine damage and passenger entrapment.",
+        "suggestedDepartment": "Water & Sanitation",
+        "officerSummary": "Ganesh Crossing underpass flooding. Drainage gates completely blocked by plastic waste. Needs immediate pump out and cleanup.",
+        "citizenSummary": "Flooded railway underpass near Ganesh crossing has been logged. Sanitation team notified.",
+        "tags": [
+          "Flooding",
+          "Underpass",
+          "Drainage Block",
+          "Traffic Jam"
+        ],
+        "locationContext": "Railway underpass box tunnel on primary transit route",
+        "estimatedResolutionDays": 1
+      },
+      "reportedBy": "user_priya",
+      "reportedByName": "Priya Sharma",
+      "assignedTo": null,
+      "assignedToName": null,
+      "department": "Water & Sanitation",
+      "verificationCount": 0,
+      "verifiers": [],
+      "upvotes": 12,
+      "upvoters": [
+        "user_aarav"
+      ],
+      "createdAt": "2026-06-27T16:18:10.139Z",
+      "updatedAt": "2026-06-27T16:18:10.139Z",
+      "resolvedAt": null,
+      "tags": [
+        "Flooding",
+        "Underpass",
+        "Drainage Block"
+      ],
+      "comments": [],
+      "progressUpdates": []
+    },
+    {
+      "id": "iss_6",
+      "title": "Broken asphalt and deep potholes on Karamsad Road",
+      "description": "A 50-meter stretch of Karamsad Road has completely disintegrated. There are multiple deep potholes that make it impossible to drive in a straight line.",
+      "category": "POTHOLE",
+      "severity": "HIGH",
+      "status": "VERIFIED",
+      "location": {
+        "coordinates": [
+          22.5498,
+          72.9052
+        ],
+        "address": "Karamsad Road, near Karamsad Civic Center, Anand, Gujarat 388121",
+        "ward": "Ward 3 (Karamsad Area)"
+      },
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?q=80&w=600&auto=format&fit=crop"
+      ],
+      "aiAnalysis": {
+        "isValidIssue": true,
+        "isFakeOrManipulated": false,
+        "category": "POTHOLE",
+        "subCategory": "Asphalt Disintegration",
+        "severity": "HIGH",
+        "severityReason": "Multiple deep road craters in succession on a high-traffic intercity connector road.",
+        "confidenceScore": 0.93,
+        "estimatedDimensions": {
+          "description": "5 craters, average depth 12cm",
+          "affectedAreaSqMeters": 15
+        },
+        "immediateRisk": true,
+        "riskDescription": "High risk of two-wheeler skid accidents and suspension damage.",
+        "suggestedDepartment": "Roads & Infrastructure",
+        "officerSummary": "Disintegrated asphalt stretch on Karamsad Road. Multiple deep voids requiring cold mix patching or complete resurfacing of the lane.",
+        "citizenSummary": "Road damage on Karamsad Road has been verified by the community and is queued for patching.",
+        "tags": [
+          "Pothole",
+          "Karamsad Road",
+          "Road Failure"
+        ],
+        "locationContext": "Double lane section near the Karamsad medical college intersection",
+        "estimatedResolutionDays": 4
+      },
+      "reportedBy": "user_aarav",
+      "reportedByName": "Aarav Patel",
+      "assignedTo": null,
+      "assignedToName": null,
+      "department": "Roads & Infrastructure",
+      "verificationCount": 3,
+      "verifiers": [
+        "user_priya",
+        "user_validator_2",
+        "user_validator_4"
+      ],
+      "upvotes": 9,
+      "upvoters": [
+        "user_priya"
+      ],
+      "createdAt": "2026-06-27T08:18:10.139Z",
+      "updatedAt": "2026-06-27T13:18:10.139Z",
+      "resolvedAt": null,
+      "tags": [
+        "Pothole",
+        "Karamsad Road",
+        "Road Failure"
+      ],
+      "comments": [
+        {
+          "id": "c_6",
+          "author": "Priya Sharma",
+          "authorRole": "Validator",
+          "text": "This section is extremely dangerous. I saw a scooter slip here this morning.",
+          "timestamp": "2026-06-27T13:18:10.139Z"
+        }
+      ],
+      "progressUpdates": []
+    },
+    {
+      "id": "iss_7",
+      "title": "Uncontrolled commercial garbage dumping on Borsad Chowkdi",
+      "description": "Large commercial boxes, packing material, and plastic trash are being dumped on the corner of Borsad Chowkdi, obstructing the pedestrian path.",
+      "category": "WASTE",
+      "severity": "MEDIUM",
+      "status": "SUBMITTED",
+      "location": {
+        "coordinates": [
+          22.5401,
+          72.9299
+        ],
+        "address": "Borsad Chowkdi Commercial Hub, Anand, Gujarat 388001",
+        "ward": "Ward 5 (Borsad Chowkdi)"
+      },
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1530587191325-3db32d826c18?q=80&w=600&auto=format&fit=crop"
+      ],
+      "aiAnalysis": {
+        "isValidIssue": true,
+        "isFakeOrManipulated": false,
+        "category": "WASTE",
+        "subCategory": "Commercial Dumping",
+        "severity": "MEDIUM",
+        "severityReason": "Solid waste pile obstructing public walkways and creating an eyesore in a primary commercial hub.",
+        "confidenceScore": 0.92,
+        "estimatedDimensions": {
+          "description": "Commercial debris pile, ~4 cubic meters",
+          "affectedAreaSqMeters": 6
+        },
+        "immediateRisk": false,
+        "riskDescription": null,
+        "suggestedDepartment": "Waste Management",
+        "officerSummary": "Debris dumping on pedestrian path corner at Borsad Chowkdi. Commercial packaging and plastic containers. Needs garbage collection team dispatch.",
+        "citizenSummary": "Waste accumulation reported. Assessed by AI as Medium severity. Routed to Sanitation.",
+        "tags": [
+          "Garbage",
+          "Sanitation",
+          "Borsad Chowkdi"
+        ],
+        "locationContext": "Pedestrian pavement corner next to retail shops",
+        "estimatedResolutionDays": 2
+      },
+      "reportedBy": "user_aarav",
+      "reportedByName": "Aarav Patel",
+      "assignedTo": null,
+      "assignedToName": null,
+      "department": "Waste Management",
+      "verificationCount": 0,
+      "verifiers": [],
+      "upvotes": 5,
+      "upvoters": [],
+      "createdAt": "2026-06-27T12:18:10.139Z",
+      "updatedAt": "2026-06-27T12:18:10.139Z",
+      "resolvedAt": null,
+      "tags": [
+        "Garbage",
+        "Sanitation",
+        "Borsad Chowkdi"
+      ],
+      "comments": [],
+      "progressUpdates": []
+    },
+    {
+      "id": "iss_8",
+      "title": "Flickering streetlights on Lambhvel Road",
+      "description": "Two consecutive streetlights on Lambhvel Road are constantly flickering. This creates an irritating strobe effect and leaves the road partially dark, reducing visibility.",
+      "category": "STREETLIGHT",
+      "severity": "LOW",
+      "status": "SUBMITTED",
+      "location": {
+        "coordinates": [
+          22.5822,
+          72.9345
+        ],
+        "address": "Lambhvel Road, near Lambhvel Temple Garden, Anand, Gujarat 388310",
+        "ward": "Ward 4 (Lambhvel Area)"
+      },
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1509024644558-2f56ce76c490?q=80&w=600&auto=format&fit=crop"
+      ],
+      "aiAnalysis": {
+        "isValidIssue": true,
+        "isFakeOrManipulated": false,
+        "category": "STREETLIGHT",
+        "subCategory": "Flickering LED lamp",
+        "severity": "LOW",
+        "severityReason": "Electrical component failure in street lighting poles. Non-urgent.",
+        "confidenceScore": 0.88,
+        "estimatedDimensions": {
+          "description": "2 flickering lighting units",
+          "affectedAreaSqMeters": null
+        },
+        "immediateRisk": false,
+        "riskDescription": null,
+        "suggestedDepartment": "Electricity",
+        "officerSummary": "Poles #SL-12 and #SL-13 are flickering due to a loose contact or chocking module failure. Scheduled standard bulb/chock replacement.",
+        "citizenSummary": "Streetlight flickering issue logged. Routed to electricity department.",
+        "tags": [
+          "Streetlight",
+          "Lambhvel Road",
+          "Flickering"
+        ],
+        "locationContext": "Residential lane section near temple park crossing",
+        "estimatedResolutionDays": 5
+      },
+      "reportedBy": "user_priya",
+      "reportedByName": "Priya Sharma",
+      "assignedTo": null,
+      "assignedToName": null,
+      "department": "Electricity",
+      "verificationCount": 0,
+      "verifiers": [],
+      "upvotes": 4,
+      "upvoters": [],
+      "createdAt": "2026-06-27T06:18:10.139Z",
+      "updatedAt": "2026-06-27T06:18:10.139Z",
+      "resolvedAt": null,
+      "tags": [
+        "Streetlight",
+        "Lambhvel Road",
+        "Flickering"
+      ],
+      "comments": [],
+      "progressUpdates": []
+    },
+    {
+      "id": "iss_9",
+      "title": "Clogged drainage canal overflow in Lambhvel Area",
+      "description": "The secondary drainage canal running along Lambhvel Road is completely clogged with weeds and plastic bags, causing dirty water to spill onto the main road.",
+      "category": "WASTE",
+      "severity": "HIGH",
+      "status": "ASSIGNED",
+      "location": {
+        "coordinates": [
+          22.5891,
+          72.9312
+        ],
+        "address": "Lambhvel Drainage Canal Avenue, Anand, Gujarat 388310",
+        "ward": "Ward 4 (Lambhvel Area)"
+      },
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=600&auto=format&fit=crop"
+      ],
+      "aiAnalysis": {
+        "isValidIssue": true,
+        "isFakeOrManipulated": false,
+        "category": "WASTE",
+        "subCategory": "Clogged Canal",
+        "severity": "HIGH",
+        "severityReason": "Canal obstruction leading to graywater spillover on a public roadway, threatening local sanitation.",
+        "confidenceScore": 0.94,
+        "estimatedDimensions": {
+          "description": "Canal block length ~12m, water spilling over ~30m",
+          "affectedAreaSqMeters": 45
+        },
+        "immediateRisk": false,
+        "riskDescription": null,
+        "suggestedDepartment": "Waste Management",
+        "officerSummary": "Blockage in Lambhvel open drainage line. Debris and silt buildup. Excavator and cleaning crew assigned.",
+        "citizenSummary": "Clogged canal graywater spillover logged. Waste management team assigned.",
+        "tags": [
+          "Clogged Canal",
+          "Drainage",
+          "Overflow",
+          "Sanitation"
+        ],
+        "locationContext": "Open stormwater canal line next to residential access lanes",
+        "estimatedResolutionDays": 3
+      },
+      "reportedBy": "user_aarav",
+      "reportedByName": "Aarav Patel",
+      "assignedTo": "user_patil",
+      "assignedToName": "Officer Anita Patil",
+      "department": "Waste Management",
+      "verificationCount": 4,
+      "verifiers": [
+        "user_priya",
+        "user_validator_2",
+        "user_validator_7",
+        "user_validator_8"
+      ],
+      "upvotes": 15,
+      "upvoters": [
+        "user_priya"
+      ],
+      "createdAt": "2026-06-26T06:18:10.139Z",
+      "updatedAt": "2026-06-26T18:18:10.139Z",
+      "resolvedAt": null,
+      "tags": [
+        "Clogged Canal",
+        "Drainage",
+        "Overflow"
+      ],
+      "comments": [
+        {
+          "id": "c_9",
+          "author": "Officer Anita Patil",
+          "authorRole": "Officer",
+          "text": "Sanitation cleaning crew has been dispatched to clear the weeds and plastic blockages in the Lambhvel open canal channel.",
+          "timestamp": "2026-06-26T18:18:10.139Z"
+        }
+      ],
+      "progressUpdates": [
+        {
+          "status": "ASSIGNED",
+          "notes": "Canal cleaning team dispatched to clear blockages.",
+          "timestamp": "2026-06-26T18:18:10.139Z",
           "updatedBy": "Officer Anita Patil"
         }
       ]
@@ -540,57 +794,11 @@
   ],
   "notifications": [
     {
-      "id": "not_val_1782576845192_user_priya",
-      "userId": "user_priya",
-      "title": "Nearby Verification Requested ðŸ“",
-      "message": "A new water_leak issue was reported near your area. Can you verify it?",
-      "createdAt": "2026-06-27T16:14:05.193Z",
-      "read": false,
-      "type": "verification",
-      "issueId": "iss_1782576845164"
-    },
-    {
-      "id": "not_badge_1782576845190_dx05",
-      "userId": "user_aarav",
-      "title": "Badge Unlocked: Water Guardian ðŸ’§",
-      "message": "Congratulations! You earned the \"Water Guardian\" badge for civic contributions.",
-      "createdAt": "2026-06-27T16:14:05.190Z",
-      "read": false,
-      "type": "gamification"
-    },
-    {
-      "id": "not_badge_1782576845185_w5bv",
-      "userId": "user_aarav",
-      "title": "Badge Unlocked: First Report ðŸŒ±",
-      "message": "Congratulations! You earned the \"First Report\" badge for civic contributions.",
-      "createdAt": "2026-06-27T16:14:05.185Z",
-      "read": false,
-      "type": "gamification"
-    },
-    {
-      "id": "not_xp_1782576845179",
-      "userId": "user_aarav",
-      "title": "Earned +10 XP! ðŸŽ¯",
-      "message": "XP awarded for submitting a community report.",
-      "createdAt": "2026-06-27T16:14:05.179Z",
-      "read": false,
-      "type": "gamification"
-    },
-    {
-      "id": "not_welcome_1782505308993",
-      "userId": "user_cust_1782505308991",
-      "title": "Account Activated! 🛡️",
-      "message": "Welcome Vaibhav! Your account is initialized in Ward 1 (Vallabh Vidyanagar). Start contributing to earn badges.",
-      "createdAt": "2026-06-26T20:21:48.993Z",
-      "read": false,
-      "type": "gamification"
-    },
-    {
       "id": "not_1",
       "userId": "user_aarav",
       "title": "Welcome to CivicPulse! ⚡",
       "message": "Report infrastructure issues, verify nearby reports, and earn XP badges to help improve your community.",
-      "createdAt": "2026-06-26T20:10:48.394Z",
+      "createdAt": "2026-06-27T18:18:10.139Z",
       "read": false,
       "type": "gamification"
     }

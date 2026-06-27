@@ -98,14 +98,11 @@ export const InteractiveMap: React.FC<InteractiveMapProps> = ({
       scrollWheelZoom: true,
     }).setView(defaultCenter, defaultZoom);
 
-    // Apply CartoDB Dark Matter vector layer
-    const baseTile = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    // Apply CartoDB Dark Matter vector layer (natively dark, no CSS filter needed)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
       maxZoom: 20,
       attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a>',
     }).addTo(map);
-
-    // Add CSS hook to apply dark tiles
-    baseTile.getContainer()?.classList.add('dark-leaflet-tiles');
 
     // Create groups
     markersGroupRef.current = L.featureGroup().addTo(map);

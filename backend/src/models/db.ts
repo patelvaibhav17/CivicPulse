@@ -579,6 +579,279 @@ class DatabaseManager {
             updatedBy: 'Officer Anita Patil'
           }
         ]
+      },
+      {
+        id: 'iss_5',
+        title: 'Flooded underpass near Ganesh Crossing',
+        description: 'Heavy water logging has accumulated in the Ganesh Crossing railway underpass due to a clogged storm drain. Cars are getting stuck and water depth has reached 2 feet.',
+        category: 'WATER_LEAK',
+        severity: 'CRITICAL',
+        status: 'SUBMITTED',
+        location: {
+          coordinates: [22.5485, 72.9392],
+          address: 'Ganesh Crossing Underpass, Anand, Gujarat 388001',
+          ward: 'Ward 6 (Ganesh Crossing)'
+        },
+        mediaUrls: ['https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=600&auto=format&fit=crop'],
+        aiAnalysis: {
+          isValidIssue: true,
+          isFakeOrManipulated: false,
+          category: 'WATER_LEAK',
+          subCategory: 'Storm Drain Blockage',
+          severity: 'CRITICAL',
+          severityReason: 'Underpass flooding halting regional traffic flow and creating immediate electrical/drowning hazards.',
+          confidenceScore: 0.95,
+          estimatedDimensions: {
+            description: 'Water depth ~60cm, affected area ~40m',
+            affectedAreaSqMeters: 120
+          },
+          immediateRisk: true,
+          riskDescription: 'Severe risk of vehicle engine damage and passenger entrapment.',
+          suggestedDepartment: 'Water & Sanitation',
+          officerSummary: 'Ganesh Crossing underpass flooding. Drainage gates completely blocked by plastic waste. Needs immediate pump out and cleanup.',
+          citizenSummary: 'Flooded railway underpass near Ganesh crossing has been logged. Sanitation team notified.',
+          tags: ['Flooding', 'Underpass', 'Drainage Block', 'Traffic Jam'],
+          locationContext: 'Railway underpass box tunnel on primary transit route',
+          estimatedResolutionDays: 1
+        },
+        reportedBy: 'user_priya',
+        reportedByName: 'Priya Sharma',
+        assignedTo: null,
+        assignedToName: null,
+        department: 'Water & Sanitation',
+        verificationCount: 0,
+        verifiers: [],
+        upvotes: 12,
+        upvoters: ['user_aarav'],
+        createdAt: new Date(Date.now() - 2 * 3600 * 1000).toISOString(),
+        updatedAt: new Date(Date.now() - 2 * 3600 * 1000).toISOString(),
+        resolvedAt: null,
+        tags: ['Flooding', 'Underpass', 'Drainage Block'],
+        comments: [],
+        progressUpdates: []
+      },
+      {
+        id: 'iss_6',
+        title: 'Broken asphalt and deep potholes on Karamsad Road',
+        description: 'A 50-meter stretch of Karamsad Road has completely disintegrated. There are multiple deep potholes that make it impossible to drive in a straight line.',
+        category: 'POTHOLE',
+        severity: 'HIGH',
+        status: 'VERIFIED',
+        location: {
+          coordinates: [22.5498, 72.9052],
+          address: 'Karamsad Road, near Karamsad Civic Center, Anand, Gujarat 388121',
+          ward: 'Ward 3 (Karamsad Area)'
+        },
+        mediaUrls: ['https://images.unsplash.com/photo-1515162305285-0293e4767cc2?q=80&w=600&auto=format&fit=crop'],
+        aiAnalysis: {
+          isValidIssue: true,
+          isFakeOrManipulated: false,
+          category: 'POTHOLE',
+          subCategory: 'Asphalt Disintegration',
+          severity: 'HIGH',
+          severityReason: 'Multiple deep road craters in succession on a high-traffic intercity connector road.',
+          confidenceScore: 0.93,
+          estimatedDimensions: {
+            description: '5 craters, average depth 12cm',
+            affectedAreaSqMeters: 15
+          },
+          immediateRisk: true,
+          riskDescription: 'High risk of two-wheeler skid accidents and suspension damage.',
+          suggestedDepartment: 'Roads & Infrastructure',
+          officerSummary: 'Disintegrated asphalt stretch on Karamsad Road. Multiple deep voids requiring cold mix patching or complete resurfacing of the lane.',
+          citizenSummary: 'Road damage on Karamsad Road has been verified by the community and is queued for patching.',
+          tags: ['Pothole', 'Karamsad Road', 'Road Failure'],
+          locationContext: 'Double lane section near the Karamsad medical college intersection',
+          estimatedResolutionDays: 4
+        },
+        reportedBy: 'user_aarav',
+        reportedByName: 'Aarav Patel',
+        assignedTo: null,
+        assignedToName: null,
+        department: 'Roads & Infrastructure',
+        verificationCount: 3,
+        verifiers: ['user_priya', 'user_validator_2', 'user_validator_4'],
+        upvotes: 9,
+        upvoters: ['user_priya'],
+        createdAt: new Date(Date.now() - 10 * 3600 * 1000).toISOString(),
+        updatedAt: new Date(Date.now() - 5 * 3600 * 1000).toISOString(),
+        resolvedAt: null,
+        tags: ['Pothole', 'Karamsad Road', 'Road Failure'],
+        comments: [
+          {
+            id: 'c_6',
+            author: 'Priya Sharma',
+            authorRole: 'Validator',
+            text: 'This section is extremely dangerous. I saw a scooter slip here this morning.',
+            timestamp: new Date(Date.now() - 5 * 3600 * 1000).toISOString()
+          }
+        ],
+        progressUpdates: []
+      },
+      {
+        id: 'iss_7',
+        title: 'Uncontrolled commercial garbage dumping on Borsad Chowkdi',
+        description: 'Large commercial boxes, packing material, and plastic trash are being dumped on the corner of Borsad Chowkdi, obstructing the pedestrian path.',
+        category: 'WASTE',
+        severity: 'MEDIUM',
+        status: 'SUBMITTED',
+        location: {
+          coordinates: [22.5401, 72.9299],
+          address: 'Borsad Chowkdi Commercial Hub, Anand, Gujarat 388001',
+          ward: 'Ward 5 (Borsad Chowkdi)'
+        },
+        mediaUrls: ['https://images.unsplash.com/photo-1530587191325-3db32d826c18?q=80&w=600&auto=format&fit=crop'],
+        aiAnalysis: {
+          isValidIssue: true,
+          isFakeOrManipulated: false,
+          category: 'WASTE',
+          subCategory: 'Commercial Dumping',
+          severity: 'MEDIUM',
+          severityReason: 'Solid waste pile obstructing public walkways and creating an eyesore in a primary commercial hub.',
+          confidenceScore: 0.92,
+          estimatedDimensions: {
+            description: 'Commercial debris pile, ~4 cubic meters',
+            affectedAreaSqMeters: 6
+          },
+          immediateRisk: false,
+          riskDescription: null,
+          suggestedDepartment: 'Waste Management',
+          officerSummary: 'Debris dumping on pedestrian path corner at Borsad Chowkdi. Commercial packaging and plastic containers. Needs garbage collection team dispatch.',
+          citizenSummary: 'Waste accumulation reported. Assessed by AI as Medium severity. Routed to Sanitation.',
+          tags: ['Garbage', 'Sanitation', 'Borsad Chowkdi'],
+          locationContext: 'Pedestrian pavement corner next to retail shops',
+          estimatedResolutionDays: 2
+        },
+        reportedBy: 'user_aarav',
+        reportedByName: 'Aarav Patel',
+        assignedTo: null,
+        assignedToName: null,
+        department: 'Waste Management',
+        verificationCount: 0,
+        verifiers: [],
+        upvotes: 5,
+        upvoters: [],
+        createdAt: new Date(Date.now() - 6 * 3600 * 1000).toISOString(),
+        updatedAt: new Date(Date.now() - 6 * 3600 * 1000).toISOString(),
+        resolvedAt: null,
+        tags: ['Garbage', 'Sanitation', 'Borsad Chowkdi'],
+        comments: [],
+        progressUpdates: []
+      },
+      {
+        id: 'iss_8',
+        title: 'Flickering streetlights on Lambhvel Road',
+        description: 'Two consecutive streetlights on Lambhvel Road are constantly flickering. This creates an irritating strobe effect and leaves the road partially dark, reducing visibility.',
+        category: 'STREETLIGHT',
+        severity: 'LOW',
+        status: 'SUBMITTED',
+        location: {
+          coordinates: [22.5822, 72.9345],
+          address: 'Lambhvel Road, near Lambhvel Temple Garden, Anand, Gujarat 388310',
+          ward: 'Ward 4 (Lambhvel Area)'
+        },
+        mediaUrls: ['https://images.unsplash.com/photo-1509024644558-2f56ce76c490?q=80&w=600&auto=format&fit=crop'],
+        aiAnalysis: {
+          isValidIssue: true,
+          isFakeOrManipulated: false,
+          category: 'STREETLIGHT',
+          subCategory: 'Flickering LED lamp',
+          severity: 'LOW',
+          severityReason: 'Electrical component failure in street lighting poles. Non-urgent.',
+          confidenceScore: 0.88,
+          estimatedDimensions: {
+            description: '2 flickering lighting units',
+            affectedAreaSqMeters: null
+          },
+          immediateRisk: false,
+          riskDescription: null,
+          suggestedDepartment: 'Electricity',
+          officerSummary: 'Poles #SL-12 and #SL-13 are flickering due to a loose contact or chocking module failure. Scheduled standard bulb/chock replacement.',
+          citizenSummary: 'Streetlight flickering issue logged. Routed to electricity department.',
+          tags: ['Streetlight', 'Lambhvel Road', 'Flickering'],
+          locationContext: 'Residential lane section near temple park crossing',
+          estimatedResolutionDays: 5
+        },
+        reportedBy: 'user_priya',
+        reportedByName: 'Priya Sharma',
+        assignedTo: null,
+        assignedToName: null,
+        department: 'Electricity',
+        verificationCount: 0,
+        verifiers: [],
+        upvotes: 4,
+        upvoters: [],
+        createdAt: new Date(Date.now() - 12 * 3600 * 1000).toISOString(),
+        updatedAt: new Date(Date.now() - 12 * 3600 * 1000).toISOString(),
+        resolvedAt: null,
+        tags: ['Streetlight', 'Lambhvel Road', 'Flickering'],
+        comments: [],
+        progressUpdates: []
+      },
+      {
+        id: 'iss_9',
+        title: 'Clogged drainage canal overflow in Lambhvel Area',
+        description: 'The secondary drainage canal running along Lambhvel Road is completely clogged with weeds and plastic bags, causing dirty water to spill onto the main road.',
+        category: 'WASTE',
+        severity: 'HIGH',
+        status: 'ASSIGNED',
+        location: {
+          coordinates: [22.5891, 72.9312],
+          address: 'Lambhvel Drainage Canal Avenue, Anand, Gujarat 388310',
+          ward: 'Ward 4 (Lambhvel Area)'
+        },
+        mediaUrls: ['https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=600&auto=format&fit=crop'],
+        aiAnalysis: {
+          isValidIssue: true,
+          isFakeOrManipulated: false,
+          category: 'WASTE',
+          subCategory: 'Clogged Canal',
+          severity: 'HIGH',
+          severityReason: 'Canal obstruction leading to graywater spillover on a public roadway, threatening local sanitation.',
+          confidenceScore: 0.94,
+          estimatedDimensions: {
+            description: 'Canal block length ~12m, water spilling over ~30m',
+            affectedAreaSqMeters: 45
+          },
+          immediateRisk: false,
+          riskDescription: null,
+          suggestedDepartment: 'Waste Management',
+          officerSummary: 'Blockage in Lambhvel open drainage line. Debris and silt buildup. Excavator and cleaning crew assigned.',
+          citizenSummary: 'Clogged canal graywater spillover logged. Waste management team assigned.',
+          tags: ['Clogged Canal', 'Drainage', 'Overflow', 'Sanitation'],
+          locationContext: 'Open stormwater canal line next to residential access lanes',
+          estimatedResolutionDays: 3
+        },
+        reportedBy: 'user_aarav',
+        reportedByName: 'Aarav Patel',
+        assignedTo: 'user_patil',
+        assignedToName: 'Officer Anita Patil',
+        department: 'Waste Management',
+        verificationCount: 4,
+        verifiers: ['user_priya', 'user_validator_2', 'user_validator_7', 'user_validator_8'],
+        upvotes: 15,
+        upvoters: ['user_priya'],
+        createdAt: new Date(Date.now() - 36 * 3600 * 1000).toISOString(),
+        updatedAt: new Date(Date.now() - 24 * 3600 * 1000).toISOString(),
+        resolvedAt: null,
+        tags: ['Clogged Canal', 'Drainage', 'Overflow'],
+        comments: [
+          {
+            id: 'c_9',
+            author: 'Officer Anita Patil',
+            authorRole: 'Officer',
+            text: 'Sanitation cleaning crew has been dispatched to clear the weeds and plastic blockages in the Lambhvel open canal channel.',
+            timestamp: new Date(Date.now() - 24 * 3600 * 1000).toISOString()
+          }
+        ],
+        progressUpdates: [
+          {
+            status: 'ASSIGNED',
+            notes: 'Canal cleaning team dispatched to clear blockages.',
+            timestamp: new Date(Date.now() - 24 * 3600 * 1000).toISOString(),
+            updatedBy: 'Officer Anita Patil'
+          }
+        ]
       }
     ];
 

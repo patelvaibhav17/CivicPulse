@@ -1,4 +1,4 @@
-@tailwind base;
+﻿@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -47,9 +47,7 @@
   font-family: 'Inter', sans-serif !important;
 }
 
-.dark-leaflet-tiles {
-  filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.35) !important;
-}
+
 
 .leaflet-popup-content-wrapper {
   background: rgba(11, 15, 30, 0.95) !important;
